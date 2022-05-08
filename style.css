@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Share Tech Mono", monospace;   
+}
+
+body {
+    background: #0f3854;
+    background: radial-gradient(ellipse at center,  #0a2e38  0%, #000000 70%);
+    background-size: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40rem;
+    height: 10rem;
+    color: white;
+    border-bottom: 3px solid rgba(10, 175, 230, 1);
+    font-size: 7rem;
+    font-weight: bold;
+    user-select: none;
+    letter-spacing: 0.1em;
+    text-shadow:0 5px rgba(10, 175, 230, 1)
+}
+
+.date {
+    width: 40rem;
+    height: 10rem;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    user-select: none;
+    letter-spacing: 0.1em;
+    text-align: center;
+    text-shadow:0 3px rgba(10, 175, 230, 1)
+    
+}
