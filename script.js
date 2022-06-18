@@ -10,7 +10,7 @@ function time() {
 }
 
 function dateFunction() {
-    let date = new Date(2022,5);
+    let date = new Date(2022,7);
     let year = date.getFullYear();
     let month = date.getMonth() < 10 ? "0" + date.getMonth() : date.getMonth();
     clockDate.innerHTML = `${year}-${month}`;
